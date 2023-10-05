@@ -26,11 +26,8 @@ void Mat33::prettyPrint() {
 
 // Compute the transpose of this Mat33 in place
 void Mat33::transpose() {
-    for (int i = 0; i < 3; i++) {
-        for (int j = i + 1; j < 3; j++) {
-            Vec3 temp = col[i];
-            col[i] = col[j];
-            col[j] = temp;
-        }
-    }
+    // this is a 3x3 matrix so there are only 3 pairs of elements that are not on the diagonal
+    std::swap(col[0].y, col[1].x);
+    std::swap(col[0].z, col[2].x);
+    std::swap(col[1].z, col[2].y);
 }
