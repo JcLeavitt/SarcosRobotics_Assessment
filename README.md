@@ -1,6 +1,6 @@
 ## Build Instructions:
 
-This project is compiled with the g++-11 compiler, specifically version 11.4.0. It uses CMake for the build system, using a minimum version of 3.14. If you are building from a zip file of the project, please ignore the first step and procede to navigate to the directory of the project (`SarcosRobotics_Assessment-main`)
+This project is compiled with the g++-11 compiler, specifically version 11.4.0. It uses CMake for the build system, using a minimum version of 3.14. If you are building from a zip file of the project, please ignore the first step and procede to navigate to the directory of the project `SarcosRobotics_Assessment-main`.
 
 1. Clone repository:
 
