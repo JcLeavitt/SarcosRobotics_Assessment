@@ -1,5 +1,7 @@
 ## Build Instructions:
 
+This project is built using the g++-11 compiler, specifically version 11.4.0.
+
 1. Clone repository:
 
 ```
