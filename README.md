@@ -1,6 +1,6 @@
 ## Build Instructions:
 
-This project is built using the g++-11 compiler, specifically version 11.4.0.
+This project is compiled with the g++-11 compiler, specifically version 11.4.0. It uses CMake for the build system, using a minimum version of 3.14.
 
 1. Clone repository:
 
