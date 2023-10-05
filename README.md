@@ -9,7 +9,7 @@ git clone https://github.com/JcLeavitt/SarcosRobotics_Assessment.git
 2. Navigate to project directory:
 
 ```
-cd sarcosrobotics_assessment
+cd SarcosRobotics_Assessment
 ```
 
 3. Configure build settings:
